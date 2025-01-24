@@ -3,7 +3,7 @@ This project demonstrates a Server-Sent Events (SSE) implementation for real-tim
 
 ## Project Description
 
-This repository contains a server application built with Spring Boot that checks for new emails matching specific criteria and sends notifications via Server-Sent Events (SSE). Additionally, it includes a client application designed for a microcontroller to receive these SSE notifications. The goal is to provide a simple yet functional system for real-time email alerts on an embedded device.
+This repository contains a server application built with Spring Boot that checks for new emails matching specific criteria and sends notifications via Server-Sent Events (SSE). Additionally, it includes a client application designed for a microcontroller to receive these SSE notifications.
 
 ## Installation and Setup
 
@@ -22,7 +22,7 @@ This repository contains a server application built with Spring Boot that checks
    * For this project to access the user's Gmail account, an app password needs to be created for Gmail. Instructions to create an app password can be found here: [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en)
    * This app password needs to be added to the EmailService.java file as explained below
 
-### Client Application
+### -Arduino- Client Application 
 1. **Arduino IDE:** Install the Arduino IDE for programming the microcontroller.
 2. **ESP8266 Board Support:** Add the ESP8266 board support to the Arduino IDE, if not already present.
 3. **Required Libraries:** Install the following libraries via the Arduino IDE's library manager:
