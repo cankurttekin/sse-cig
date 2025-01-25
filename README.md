@@ -15,12 +15,8 @@ This repository contains a server application built with Spring Boot that checks
     git clone https://github.com/cankurttekin/sse-cig.git
     cd sse-cig/server
     ```
-4.  **Gmail API Setup** 
-    * To enable the Gmail API for the email functionality a project needs to be created in Google Cloud console. The Gmail API needs to be enabled and after generating OAuth 2.0 Client IDs a `credentials.json` file needs to be generated. Follow the instructions described here: [https://developers.google.com/gmail/api/quickstart/java](https://developers.google.com/gmail/api/quickstart/java)
-    * Place this file under the resources folder of server project directory (`server/src/main/resources/credentials.json`).
-5. **Gmail App Password Setup**
+4. **Gmail App Password**
    * For this project to access the user's Gmail account, an app password needs to be created for Gmail. Instructions to create an app password can be found here: [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en)
-   * This app password needs to be added to the EmailService.java file as explained below
 
 ### -Arduino- Client Application 
 1. **Arduino IDE:** Install the Arduino IDE for programming the microcontroller.
